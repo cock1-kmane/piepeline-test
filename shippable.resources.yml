@@ -3,7 +3,7 @@ resources:
    
   - name: plv2-image12
     type: image
-    integration: ship4-docker
+    integration: plv2-docker
     pointer:
       sourceName: "shippabledocker/pipelinev2"
     seed:
@@ -11,7 +11,7 @@ resources:
       
   - name: plv21
     type: image
-    integration: ship4-docker
+    integration: plv2-docker
     pointer:
       sourceName: "library/nginx"
     seed:
